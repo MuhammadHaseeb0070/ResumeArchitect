@@ -1,0 +1,13 @@
+/* form.css */
+.accordionContent {
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+}
+
+.accordionContent.open {
+    max-height: 500px; /* Adjust as needed */
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}

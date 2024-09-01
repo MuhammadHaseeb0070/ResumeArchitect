@@ -1,0 +1,25 @@
+.avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+.profileImage{
+    border-radius: 50%;
+}
+.templateHeaderInitials{
+   transform: translate(-50%, -50%);
+}
+.profile-image-container {
+    width: 120px; /* Desired width */
+    height: 120px; /* Desired height */
+    border-radius: 50%; /* Makes it a circle if needed */
+    overflow: hidden; /* Crops the image to fit */
+    position: relative;
+}
+
+.profile-image {
+    width: 100%; /* Stretch the image to fit the container width */
+    height: 100%; /* Stretch the image to fit the container height */
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center; /* Focuses on the center of the image */
+}
